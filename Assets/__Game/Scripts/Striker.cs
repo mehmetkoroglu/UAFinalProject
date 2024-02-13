@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Striker : MonoBehaviour
 {
-    [SerializeField] private GameObject misslePrefab;
-    [SerializeField] private Transform misslePlace;
+    [SerializeField] private GameObject missilePrefab;
+    [SerializeField] private Transform missilePlace;
 
     private void Update()
     {
@@ -15,10 +15,10 @@ public class Striker : MonoBehaviour
 
             if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity))
             {
-                GameObject missleClone = Instantiate(misslePrefab, misslePlace.position, Quaternion.identity);
-                missleClone.GetComponent<Missle>().target = hit.point;
+                GameObject missleClone = Instantiate(missilePrefab, missilePlace.position, Quaternion.identity);
+                missleClone.GetComponent<Missile>().target = hit.point;
             }
         }
     }
-   
+
 }

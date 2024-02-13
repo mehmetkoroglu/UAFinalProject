@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 265478551}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -514,7 +514,7 @@ GameObject:
   - component: {fileID: 730407927}
   m_Layer: 0
   m_Name: Terrain_(0.00, 0.00, -1000.00)
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -604,7 +604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 834767402}
   m_Layer: 0
-  m_Name: MisslePlace
+  m_Name: MissilePlace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,7 +638,7 @@ GameObject:
   - component: {fileID: 1311756830}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 0.00, 0.00)
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -731,7 +731,7 @@ GameObject:
   - component: {fileID: 1538813656}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 0.00, -1000.00)
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2501,9 +2501,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899ac48c24fce0b4784748f11833df1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  misslePrefab: {fileID: 1858728893185433447, guid: 18030fb27d6682346b639ffa813ea9ab,
+  missilePrefab: {fileID: 1858728893185433447, guid: 18030fb27d6682346b639ffa813ea9ab,
     type: 3}
-  misslePlace: {fileID: 834767402}
+  missilePlace: {fileID: 834767402}
 --- !u!1 &930721508222430645
 GameObject:
   m_ObjectHideFlags: 0
