@@ -25,7 +25,7 @@
 
 # Visual Studio cache directory
 .vs/
-.vsconfig/
+.vsconfig
 
 # For the large size assets. Please look at the Readme.md file
 /[Aa]ssets/__External/
