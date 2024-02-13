@@ -25,6 +25,10 @@
 
 # Visual Studio cache directory
 .vs/
+.vsconfig/
+
+# For the large size assets. Please look at the Readme.md file
+/[Aa]ssets/__External/
 
 # Gradle cache directory
 .gradle/
