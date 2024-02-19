@@ -27,6 +27,8 @@ public class Missile : MonoBehaviour
     {
         if (other.CompareTag("Damageable"))
         {
+            Destroy(other.gameObject);
+
             GameObject explosionEffectClone = Instantiate(explosionEffect, transform.position, transform.rotation);
             Destroy(explosionEffectClone, 2f);
             Destroy(gameObject, 1f);
